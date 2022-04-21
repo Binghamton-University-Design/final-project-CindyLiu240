@@ -3,18 +3,108 @@
 
 :root {
 	background-color: lightyellow;
-	body-color: blue;
+	body-color: ;
 }
 
-Body {
-	margin: 1rem;
-	color: white;
-	background-color:var(body-color);
-	font-size: ;
-	text-align: ;
+body {
+	font-family: bubblegum-pop-vanilla,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p {
+  font-family: chantal,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3em;
 }
 
 #wrapper {
 	margin: 0 auto;
 	max-width: 1200px;
 }
+
+.container {
+	position: relative;
+  text-align: center;
+  width: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.top-center {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40pt;
+  color: darkgreen;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+  width: 442.500px;
+  height: 121px;
+}
+
+
+.center {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20pt;
+  color: darkgreen;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.bottom-center {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25pt;
+ color: darkgreen;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.bottom2-center {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25pt;
+  color: darkgreen;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.bottom1-center {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25pt;
+  text-align: center;
+  width: 700px;
+  height: 41px;
+  color: white;
+}
+
+.bottom3-center {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25pt;
+  text-align: center;
+  color: white;
+}
+
+.link:hover { 
+  color: #ffffff; 
+}
+
+
+
