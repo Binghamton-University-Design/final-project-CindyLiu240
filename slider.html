@@ -16,60 +16,44 @@
 		<!-- load google fonts -->
 		<link rel="stylesheet" href="https://use.typekit.net/vir8pqv.css">
 
-		<link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-		<script src="JS/main.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 		<title>The world is your fishbowl: a story about the life of a sea turtle</title>
-		<title> Based on true story</title>
 	</head>
 
 	<body>
 		<div id="wrapper">
-			<div class="grid">
-				<div class="width-12-12 width-12-12-m">	
+			
+			<!-- begin slider -->
 
-					<!-- Slider main container -->
-					<div class="swiper">
-					  <!-- Additional required wrapper -->
-					  <div class="swiper-wrapper">
-					    <!-- Slides -->
-					    <div class="swiper-slide">
-                <div>
-                    <img src="images/scene 1.1 blur effect-01.png" />
-                    <div class="top-center">A Story About the Life of a Sea Turtle</div>
-                    <div class="center">Based on true events</div>
-                    <div class="bottom-center"><a class="link" href="easymode.html">Easy Mode</a></div>
-                    <div class="bottom2-center">Hard Mode</div>
-                </div>
-					  	</div>
+			<div class="hero-slider" data-carousel>
+			  
+			  <div class="carousel-cell" style="background-image:url(images/scene_1_1_blur_effect_01.png);">
+			    <div class="overlay"></div>
+			    <div class="inner">
+			      <div class="top-center">A Story About the Life of a Sea Turtle</div>
+                  <div class="center">Based on true events</div>
+                  <div class="bottom-center"><a class="link" href="easymode.html">Easy Mode</a></div>
+                  <div class="bottom2-center">Hard Mode</div>
+			    </div>
+			  </div>
 
-					  	<div class="swiper-slide">
-                <div>
-                    <img src="images/scene 1.1 blur effect-01.png" />
-                    <div class="top-center">A Story About the Life of a Sea Turtle</div>
-                    <div class="center">Based on true events</div>
-                    <div class="bottom-center"><a class="link" href="easymode.html">Easy Mode</a></div>
-                    <div class="bottom2-center">Hard Mode</div>
-                </div>
-					  	</div>
-					  <!-- If we need pagination -->
-					  <div class="swiper-pagination"></div>
-
-					  <!-- If we need navigation buttons -->
-					  <div class="swiper-button-prev"></div>
-					  <div class="swiper-button-next"></div>
-
-					  <!-- If we need scrollbar -->
-					  <div class="swiper-scrollbar"></div>
-					</div>
-		
-				</div>
+			  <div class="carousel-cell" style="background-image:url(images/scene_1_1_blur_effect_01.png);">
+			    <div class="overlay"></div>
+			    <div class="inner">
+			      <div class="top-center">A Story About the Life of a Sea Turtle</div>
+                  <div class="center">Based on true events</div>
+                  <div class="bottom-center"><a class="link" href="easymode.html">Easy Mode</a></div>
+                  <div class="bottom2-center">Hard Mode</div>
+			    </div>
+			  </div>
+			
 			</div>
+
+			<!-- end slider -->
+
 		</div>
+		<script src="JS/main.js"></script>
 </body>

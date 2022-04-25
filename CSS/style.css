@@ -21,7 +21,6 @@ p {
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 1200px;
 }
 
 .container {
@@ -106,12 +105,64 @@ p {
   color: #ffffff; 
 }
 
-.swiper {
+
+.overlay {
+  position: absolute;
   width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: linear-gradient(to bottom, rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.2));*/
+  background: transparent;
 }
 
-.swiper-slide {
+.hero-slider {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-slider .carousel-cell {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-slider .carousel-cell .inner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
 
+.hero-slider .flickity-prev-next-button {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+.hero-slider .flickity-prev-next-button:hover {
+  background: transparent;
+}
+.hero-slider .flickity-prev-next-button .arrow {
+  fill: black;
+}
+.hero-slider .flickity-page-dots {
+  bottom: 30px;
+}
+.hero-slider .flickity-page-dots .dot {
+  width: 30px;
+  height: 4px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0 solid white;
+  border-radius: 0;
+}
+.hero-slider .flickity-page-dots .dot.is-selected {
+  background: darkgreen;
+  border: 0 solid darkgreen;
 }
 
 
