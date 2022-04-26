@@ -91,6 +91,21 @@ p {
   color: white;
 }
 
+.inner {
+  position: relative;
+}
+
+.pop-up {
+  position: absolute;
+  bottom: 2em;
+  font-size: 12pt;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  color: white;
+  background: rosybrown;
+}
+
 .bottom3-center {
   position: absolute;
   top: 90%;
