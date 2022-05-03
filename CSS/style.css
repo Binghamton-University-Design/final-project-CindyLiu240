@@ -24,11 +24,14 @@ p {
 }
 
 .container {
-	position: relative;
+	position: absolute;
   text-align: center;
-  width: auto;
-  overflow-x: scroll;
-  overflow-y: hidden;
+align-items: center;
+  width: 500px;
+  height: 500px;
+  background: brown;
+  animation: ;
+  animation-delay: 15s;
 }
 
 .top-center {
@@ -45,6 +48,9 @@ p {
   height: 121px;
 }
 
+.box {
+  position: absolute;
+}
 
 .center {
   position: absolute;
@@ -95,16 +101,39 @@ p {
   position: relative;
 }
 
+.point {
+  position: absolute;
+  top: 56%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.point1 {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.point2 {
+  position: absolute;
+  top: 305%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
 .pop-up {
   position: absolute;
-  bottom: 2em;
-  font-size: 12pt;
+  bottom: 8em;
+  font-size: 10pt;
   text-align: center;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 5em;
+  margin-right: 5em;
   color: white;
-  background: rosybrown;
 }
+
+
 
 .bottom3-center {
   position: absolute;
@@ -119,7 +148,6 @@ p {
 .link:hover { 
   color: #ffffff; 
 }
-
 
 .overlay {
   position: absolute;
