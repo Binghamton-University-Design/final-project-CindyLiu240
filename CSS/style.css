@@ -24,7 +24,7 @@ p {
 }
 
 .container {
-	position: relative;
+	position: absolute;
   text-align: center;
 align-items: center;
   width: 500px;
@@ -49,9 +49,7 @@ align-items: center;
 }
 
 .box {
-  margin-left: 1em;
-  margin-right: 1em;
-  align-content: center;
+  position: absolute;
 }
 
 .center {
@@ -103,16 +101,36 @@ align-items: center;
   position: relative;
 }
 
+.point {
+  position: absolute;
+  top: 56%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.point1 {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.point2 {
+  position: absolute;
+  top: 305%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
 .pop-up {
   position: absolute;
   bottom: 8em;
   font-size: 10pt;
   text-align: center;
   width: 90%;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 5em;
+  margin-right: 5em;
   color: white;
-  animation-delay:time;
 }
 
 
