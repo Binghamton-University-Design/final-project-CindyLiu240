@@ -4,6 +4,7 @@ var options = {
   accessibility: true,
   prevNextButtons: true,
   pageDots: true,
+  draggable: false,
   setGallerySize: false,
   arrowShape: {
     x0: 10,
@@ -14,6 +15,18 @@ var options = {
     x3: 15
   }
 };
+
+$( ".close" ).click(function() {
+  $( this ).parent().parent().parent().fadeToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( ".open" ).click(function() {
+  $( this ).closest('.inner').children('.overlay-holder').fadeToggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
 var carousel = document.querySelector('[data-carousel]');
 var slides = document.getElementsByClassName('carousel-cell');
