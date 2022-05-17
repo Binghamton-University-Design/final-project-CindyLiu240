@@ -2,7 +2,9 @@
 <html>
 	<head>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- scripts -->
+		<script src="js/main.js"></script>
 		<!-- styles -->
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -39,7 +41,9 @@
 			    		<div class="overlay">
 					    	<div class="overlay-inner">
 					    		<div class="close">X</div>
-					    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae elit tortor. In fermentum efficitur turpis, eu commodo elit suscipit at. Ut pellentesque maximus sapien, quis porta diam efficitur ac. Donec dictum libero eu tortor congue cursus. Curabitur malesuada pellentesque maximus. </p>
+					    		<p>“Congratulations, You are a loggerhead sea turtle!</p> 
+					    		<p>You are lucky and hatched at the right time at night. Unfortunately, our brothers and sisters were not so lucky. During the daytime, an umbrella was jabbed into the sand where your brothers and sisters were.”</p>
+					    		<img src="images/baby_sea_turtle.jpeg" />
 					    	</div>
 				    	</div>
 				    </div>
@@ -58,53 +62,124 @@
 			    		<div class="overlay">
 					    	<div class="overlay-inner">
 					    		<div class="close">X</div>
-					    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae elit tortor. In fermentum efficitur turpis, eu commodo elit suscipit at. Ut pellentesque maximus sapien, quis porta diam efficitur ac. Donec dictum libero eu tortor congue cursus. Curabitur malesuada pellentesque maximus. </p>
+					    		<p>“You followed your instincts and found your way to the ocean! Others weren't so lucky, they got confused and followed hotel lights instead.”  </p>
+					    		<img src="images/shoreline_sunset.jpg" width="387in" height="387in" />
 					    	</div>
 				    	</div>
 				    </div>
 
-			    	<style> 
+			    	
+			      <div class="pop-up">
+			      	<style> 
 						h1 {
 						  
 						  position: relative;
-						  animation: myfirst 20s 3;
+						  animation: myfirst 15s 4;
 						  animation-direction: alternate;
+						  animation-iteration-count: infinite;
 						}
 
 						@keyframes myfirst {
-						  0%    { left: 100px; top: 50px;}
+						  0%    { left: 300px; top: 500px;}
+						  25%   { left: 250px; top: 450px;}
+						  75%    { left: 200px; top: 400px;}
+						  100%    { left: 200px; top: 400px;}
 
 						}
 						</style>
 			    	<div class="open"><h1><img src="images/baby_turtle_point-01.png" /></h1></div>
-			      <div class="pop-up">
 			      	<p>You make your way to the ocean using the brightest point of the horizon</p>
 			      </div>
 			    </div>
 			  </div>
 
 			  <div class="carousel-cell" style="background-image:url(images/scene-3.png);">
-          <div class="overlay"></div>
           <div class="inner">
-          	<div><img class="point2" src="images/baby_turtle_point_right-01.png" /></div>
-            	  <div class="pop-up">
-			      	<p>“Lost years”: You have successfully made it to the ocean. At this stage you aimlessly migrate and feed on planktonic invertebrates on surface water for the first few years of your life.</p>
-			      </div>
-         	 	</div>
+
+          	<div class="overlay-holder">
+			    		<div class="overlay">
+					    	<div class="overlay-inner">
+					    		<div class="close">X</div>
+					    		<p>“You happen to be lucky and see a nearby sea turtle getting caught in a fishing net and end up drowning. BUT you learned from that sea turtle’s mistake and steered clear of the net.”</p>
+					    		<img src="images/turtle_net.jpeg" width="387in" height="307in" />
+					    	</div>
+				    	</div>
+				    </div>
+
+            	
+            	<div class="pop-up"> 
+            	  	<style> 
+										h2 {
+
+										  width: 700px;
+										  height: 700px;
+										  position: relative;
+										  animation: mymove 7s infinite;
+										}
+
+										#div1 {animation-timing-function: linear;}
+
+										@keyframes mymove {
+										  from {left: 0px;}
+										  to {left: 600px;}
+										}
+						</style>
+								<div class="open"><h2><img src="images/baby_turtle_point_right-01.png" /></h2></div>
+			      			<p>“Lost years”: You have successfully made it to the ocean. At this stage you aimlessly migrate and feed on planktonic invertebrates on surface water for the first few years of your life.</p>
+			      		</div>
+         	 		</div>
         	  </div>
 
         <div class="carousel-cell" style="background-image:url(images/scene-3-1.png);">
-          <div class="overlay"></div>
           <div class="inner">
+
+          	<div class="overlay-holder">
+			    		<div class="overlay">
+					    	<div class="overlay-inner">
+					    		<div class="close">X</div> 
+					    		<p>“While you make your way to nearshore, you encounter a natural predator– a shark, maybe. You weren’t sure as you were too busy swimming away. Your cautiousness saved your life.”</p>
+					    		<img src="images/Tiger_Shark_Wallpapers.jpg" width="387in" height="387in"/>
+					    	</div>
+				    	</div>
+				    </div>
+
            <div class="pop-up">
+           	<style> 
+										h3 {
+
+										  width: 900px;
+										  height: 900px;
+										  position: relative;
+										  animation: mymove 7s infinite;
+										}
+
+										#div1 {animation-timing-function: linear;}
+
+										@keyframes mymove {
+										  from {left: 0px;}
+										  to {left: 600px;}
+										}
+						</style>
+						<div class="open"><h3><img src="images/turtle_red_point_01.png" /></h3></div>
 			      	<p>After a few years have passed, you migrate to nearshore to continue to mature.</p>
 			      </div>
           </div>
         </div>
 
         <div class="carousel-cell" style="background-image:url(images/scene-3.png);">
-          <div class="overlay"></div>
           <div class="inner">
+
+          	<div class="overlay-holder">
+			    		<div class="overlay">
+					    	<div class="overlay-inner">
+					    		<div class="close">X</div>
+					    		<p>“As you were heading to the foraging area, you encountered some poachers. You tried your best to get away from them and you SUCCEEDED!” </p>
+					    		<img src="images/kris-mikael-krister-aGihPIbrtVE-unsplash.jpg" width="387in" height="387in" />
+					    	</div>
+				    	</div>
+				    </div>
+							
+							<div class="open"><img class="point1" src="images/turtle_red_point_01.png" /></div>
             <div class="pop-up">
 			      	<p>After you became an adult, you thought that it was time to make your mark on this world and head to the adult foraging area.</p>
 			      </div>
@@ -112,8 +187,19 @@
         </div>
 
        <div class="carousel-cell" style="background-image:url(images/scene-3-1.png);">
-          <div class="overlay"></div>
           <div class="inner">
+
+          	<div class="overlay-holder">
+			    		<div class="overlay">
+					    	<div class="overlay-inner">
+					    		<div class="close">X</div>
+					    		<p>“You and another turtle found each other and successfully mated. But others were not so lucky.”</p>
+					    		<img src="images/sea_turtle_success.jpeg" width="387in" height="387in"/>
+					    	</div>
+				    	</div>
+				    </div>
+
+				    	<div class="open"><img class="point1" src="images/turtle_red_point_01.png" /></div>
             <div class="pop-up">
 			      	<p>You make it to the foraging area and start to breed with other turtles.</p>
 			      </div>
@@ -121,8 +207,19 @@
         </div>
 
          <div class="carousel-cell" style="background-image:url(images/scene-end.png);">
-          <div class="overlay"></div>
           <div class="inner">
+
+          	<div class="overlay-holder">
+			    		<div class="overlay">
+					    	<div class="overlay-inner">
+					    		<div class="close">X</div>
+					    		<p>You successfully laid your eggs alongside the other sea turtles. Your eggs are healthy. Congratulations for making it this far! You go back into the ocean and migrate aimlessly until mating season again for the rest of your life and hope you are lucky enough to stay alive and die of old age! </p>
+					    		<img src="images/sea_turtle_hatching.png" width="387in" height="307in"/>
+					    	</div>
+				    	</div>
+				    </div>
+
+								<div class="open"><img class="point2" src="images/turtle_red_point_01.png" /></div>
             <div class="pop-up">
 			      	<p>You make your way back to the place that you hatched in and start to dig a hole and lay your eggs.</p>
 			      </div>
